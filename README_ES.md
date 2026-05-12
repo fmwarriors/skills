@@ -28,43 +28,55 @@ Explora estos skills para obtener ayuda con tareas específicas de FileMaker, o 
 | [filemaker-saxml-builder](./skills/filemaker-saxml-builder) | Construye, valida, repara y corrige archivos XML de FileMaker (SAXML/fmxmlsnippet) para scripts, campos, layouts, temas y mucho más. | FileMaker Pro 19+ / Claris FileMaker 21+ |
 | [contribute-skill](./skills/contribute-skill) | Guía a un miembro de la org FMWarriors para contribuir un nuevo skill a este repositorio — clonación, ramas, estructura, validación y apertura de pull request vía gh CLI. No se necesitan conocimientos de git. | Requiere git + gh CLI |
 
-## Úsalo en tu agente
+## Instalación de skills
 
-### Claude Code
+No existe un formato de paquete — un skill es simplemente una carpeta. Descárgala y colócala donde tu agente busca skills.
 
-Registra este repositorio como marketplace de plugins de Claude Code ejecutando:
+### Descargar un skill
+
+Cada carpeta de skill se puede descargar como ZIP directamente desde GitHub:
+
+| Skill | Descarga |
+|-------|----------|
+| filemaker-svg-builder | [Descargar ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/filemaker-svg-builder) |
+| filemaker-saxml-builder | [Descargar ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/filemaker-saxml-builder) |
+| contribute-skill | [Descargar ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/contribute-skill) |
+
+Descomprime el archivo descargado — obtendrás una carpeta con el nombre del skill que contiene un archivo `SKILL.md`.
+
+### Dónde colocarla
+
+| Agente | Ruta | Notas |
+|--------|------|-------|
+| **Claude Code** | `~/.claude/skills/<nombre-del-skill>/` | Personal — disponible en todos tus proyectos. Sin reinicio. |
+| **Claude Code** (proyecto) | `.claude/skills/<nombre-del-skill>/` | Solo este proyecto — inclúyelo en control de versiones para compartir con el equipo. |
+| **VS Code / Copilot** | `.agents/skills/<nombre-del-skill>/` | Dentro de la raíz del proyecto. Abre Copilot Chat en modo Agent y escribe `/skills` para confirmar. |
+| **Cursor** | `.cursor/skills/<nombre-del-skill>/` | Dentro de la raíz del proyecto. |
+| **Cualquier otro agente** | `~/.agents/skills/<nombre-del-skill>/` | Ruta estándar cross-client compatible con la mayoría de agentes. |
+
+### Claude Code — instalación con un comando
+
+Claude Code también permite instalar directamente desde este repositorio a través de su sistema de plugins:
 
 ```
 /plugin marketplace add fmwarriors/skills
 ```
 
-Luego instala el plugin de skills de FileMaker:
-
 ```
 /plugin install filemaker-skills@fmwarriors-skills
 ```
 
-También puedes clonar el repositorio y apuntar Claude Code al directorio `skills/` en la configuración de tu proyecto.
+### Una vez instalado
 
-### VS Code (GitHub Copilot)
+Dile a tu agente lo que necesitas. Los skills se activan automáticamente por descripción — no hace falta ningún slash command. Por ejemplo:
 
-VS Code busca skills en `.agents/skills/` por defecto. Copia cualquier carpeta de skill a `.agents/skills/` en tu proyecto:
+> *"Crea un icono SVG para un botón de FileMaker"* → activa `filemaker-svg-builder`
+> *"Valida este fmxmlsnippet"* → activa `filemaker-saxml-builder`
+> *"Quiero contribuir un skill a FMWarriors"* → activa `contribute-skill`
 
-```bash
-cp -r skills/filemaker-svg-builder /tu-proyecto/.agents/skills/
-```
+También puedes invocar cualquier skill directamente escribiendo `/nombre-del-skill` (en agentes que soporten slash commands).
 
-Abre el panel de Copilot Chat en modo **Agent** y escribe `/skills` para confirmar que aparece.
-
-### Cursor
-
-En Cursor, ve a Settings → Features → Agent Skills y añade la ruta al directorio `skills/` de este repositorio, o copia carpetas de skills individuales al directorio `.cursor/skills/` de tu proyecto.
-
-### Otros agentes
-
-Cualquier agente compatible con la [especificación Agent Skills](https://agentskills.io/specification) puede utilizar estos skills. Coloca la carpeta del skill donde tu agente busca skills, o configura el directorio de skills del agente para apuntar a `skills/` de este repositorio.
-
-Consulta el [Client Showcase](https://agentskills.io/clients) para ver la lista completa de agentes compatibles y sus instrucciones de configuración.
+Consulta el [Client Showcase](https://agentskills.io/clients) para ver las instrucciones de configuración de todos los agentes compatibles.
 
 ## Crear un nuevo skill de FileMaker
 

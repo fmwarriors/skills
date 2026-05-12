@@ -26,6 +26,7 @@ Explora estos skills para obtener ayuda con tareas específicas de FileMaker, o 
 |-------|-------------|----------------|
 | [filemaker-svg-builder](./skills/filemaker-svg-builder) | Construye, repara y valida iconos SVG para botones y barras de botones de FileMaker Pro según la especificación SVG Grammar de FileMaker Pro 14. | FileMaker Pro 14+ |
 | [filemaker-saxml-builder](./skills/filemaker-saxml-builder) | Construye, valida, repara y corrige archivos XML de FileMaker (SAXML/fmxmlsnippet) para scripts, campos, layouts, temas y mucho más. | FileMaker Pro 19+ / Claris FileMaker 21+ |
+| [contribute-skill](./skills/contribute-skill) | Guía a un miembro de la org FMWarriors para contribuir un nuevo skill a este repositorio — clonación, ramas, estructura, validación y apertura de pull request vía gh CLI. No se necesitan conocimientos de git. | Requiere git + gh CLI |
 
 ## Úsalo en tu agente
 

@@ -16,7 +16,8 @@
       "strict": false,
       "skills": [
         "./skills/filemaker-svg-builder",
-        "./skills/filemaker-saxml-builder"
+        "./skills/filemaker-saxml-builder",
+        "./skills/contribute-skill"
       ]
     }
   ]

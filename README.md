@@ -31,7 +31,7 @@ Browse these skills to get help with FileMaker-specific tasks, or use them as a 
 You can register this repository as a Claude Code Plugin marketplace by running:
 
 ```
-/plugin marketplace add FMWarriors/skills
+/plugin marketplace add fmwarriors/skills
 ```
 
 Then install the FileMaker skills plugin:

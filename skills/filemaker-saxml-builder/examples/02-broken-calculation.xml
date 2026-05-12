@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BROKEN: Missing CDATA in calculation, wrong boolean values -->
+<fmxmlsnippet type="FMObjectList">
+  <Field id="1" dataType="Text" fieldType="Calculated" name="FullName">
+    <AutoEnter allowEditing="false" constant="false" furigana="false" lookup="false" calculation="true">
+      <Calculation>firstName & " " & lastName</Calculation>
+    </AutoEnter>
+    <Validation message="false" maxLength="false" valuelist="false" calculation="false" alwaysValidateCalculation="false" type="OnlyDuringDataEntry">
+    </Validation>
+    <Storage autoIndex="true" index="None" indexLanguage="English" global="false" maxRepetition="1">
+    </Storage>
+  </Field>
+</fmxmlsnippet>

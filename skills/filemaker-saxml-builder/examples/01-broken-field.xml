@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BROKEN: Missing required attributes and child elements -->
+<fmxmlsnippet>
+  <Field name="CustomerName">
+    <AutoEnter allowEditing="true"/>
+  </Field>
+</fmxmlsnippet>

@@ -1,0 +1,23 @@
+{
+  "name": "fmwarriors-skills",
+  "owner": {
+    "name": "Francesc Sans",
+    "email": "fsans@ntwk.es"
+  },
+  "metadata": {
+    "description": "FMWarriors Agent Skills for FileMaker Pro development",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "filemaker-skills",
+      "description": "FileMaker Pro development skills including SVG icon builder/validator and SAXML (fmxmlsnippet) builder/validator for scripts, fields, layouts, themes, and more.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/filemaker-svg-builder",
+        "./skills/filemaker-saxml-builder"
+      ]
+    }
+  ]
+}

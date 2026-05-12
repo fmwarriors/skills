@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FIXED: CDATA wrapping calculation, proper boolean capitalization -->
+<fmxmlsnippet type="FMObjectList">
+  <Field id="1" dataType="Text" fieldType="Calculated" name="FullName">
+    <AutoEnter allowEditing="False" constant="False" furigana="False" lookup="False" calculation="True">
+      <Calculation><![CDATA[firstName & " " & lastName]]></Calculation>
+    </AutoEnter>
+    <Validation message="False" maxLength="False" valuelist="False" calculation="False" alwaysValidateCalculation="False" type="OnlyDuringDataEntry"/>
+    <Storage autoIndex="True" index="None" indexLanguage="English" global="False" maxRepetition="1"/>
+  </Field>
+</fmxmlsnippet>

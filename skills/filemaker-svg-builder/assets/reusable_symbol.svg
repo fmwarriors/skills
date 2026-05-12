@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="300"
+     height="100"
+     viewBox="0 0 300 100">
+  <defs>
+    <!-- Define reusable symbol -->
+    <symbol id="checkmark" viewBox="0 0 20 20" preserveAspectRatio="xMinYMin">
+      <path d="M 2 10 L 8 16 L 18 4"
+            style="stroke:#00AA00;stroke-width:2;fill:none"/>
+    </symbol>
+  </defs>
+  <g>
+    <!-- Use the symbol multiple times at different positions and sizes -->
+    <use x="10" y="10" width="30" height="30" xlink:href="#checkmark"/>
+    <use x="60" y="10" width="40" height="40" xlink:href="#checkmark"/>
+    <use x="120" y="10" width="50" height="50" xlink:href="#checkmark"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<!-- FIXED: Custom menus use FMObjectTransfer format with proper catalog structure -->
+<FMObjectTransfer version="1" membercount="1" Source="21.0.2" File="MyDatabase" UUID="12345678-1234-1234-1234-123456789012" locale="en_US" timestamp="2024-01-01T12:00:00">
+  <CustomMenuSetCatalog membercount="1">
+    <UUID modifications="3" userName="admin" accountName="admin" timestamp="2024-01-01T12:00:00">12345678-1234-1234-1234-123456789012</UUID>
+    <TagList></TagList>
+    <CustomMenuSetReference id="2" name="My Menu Set" UUID="12345678-1234-1234-1234-123456789012"/>
+    <ObjectList membercount="1">
+      <CustomMenuSet id="2" name="My Menu Set" UUID="12345678-1234-1234-1234-123456789012">
+        <CustomMenuList membercount="1">
+          <CustomMenuReference id="1" name="File" source="standard"/>
+        </CustomMenuList>
+      </CustomMenuSet>
+    </ObjectList>
+  </CustomMenuSetCatalog>
+  <PasteIndexList membercount="1">
+    <Object id="2"/>
+  </PasteIndexList>
+</FMObjectTransfer>

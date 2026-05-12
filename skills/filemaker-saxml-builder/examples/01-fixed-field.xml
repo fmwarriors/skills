@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FIXED: All required attributes and child elements present -->
+<fmxmlsnippet type="FMObjectList">
+  <Field id="1" dataType="Text" fieldType="Normal" name="CustomerName">
+    <AutoEnter allowEditing="True" constant="False" furigana="False" lookup="False" calculation="False">
+      <ConstantData></ConstantData>
+    </AutoEnter>
+    <Validation message="False" maxLength="False" valuelist="False" calculation="False" alwaysValidateCalculation="False" type="OnlyDuringDataEntry"/>
+    <Storage autoIndex="True" index="None" indexLanguage="English" global="False" maxRepetition="1"/>
+  </Field>
+</fmxmlsnippet>

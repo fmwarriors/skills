@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BROKEN: Custom menus MUST use FMObjectTransfer format, not fmxmlsnippet -->
+<fmxmlsnippet type="FMObjectList">
+  <CustomMenuSet id="2" name="My Menu Set">
+    <CustomMenuList membercount="1">
+      <CustomMenuReference id="1" name="File" source="standard"/>
+    </CustomMenuList>
+  </CustomMenuSet>
+</fmxmlsnippet>

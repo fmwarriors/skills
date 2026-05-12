@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="200"
+     height="60"
+     viewBox="0 0 200 60">
+  <!-- Theme-compatible button with rounded corners -->
+  <!-- No fill - will inherit from FileMaker fm_fill wrapper -->
+  <rect x="10" y="10" width="180" height="40" rx="5" ry="5"
+        stroke="#007AFF" stroke-width="2"/>
+</svg>

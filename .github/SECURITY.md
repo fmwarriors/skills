@@ -1,3 +1,6 @@
+[![English](https://img.shields.io/badge/lang-English-blue?style=flat-square)](./SECURITY.md)
+[![Español](https://img.shields.io/badge/lang-Español-red?style=flat-square)](./SECURITY_ES.md)
+
 # Security Policy
 
 ## Reporting a Vulnerability

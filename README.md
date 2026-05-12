@@ -1,3 +1,6 @@
+[![English](https://img.shields.io/badge/lang-English-blue?style=flat-square)](./README.md)
+[![Español](https://img.shields.io/badge/lang-Español-red?style=flat-square)](./README_ES.md)
+
 > **Note:** This repository contains FMWarriors' Agent Skills for FileMaker Pro development. For information about the Agent Skills standard, see [agentskills.io](https://agentskills.io).
 
 # FMWarriors Skills
@@ -95,7 +98,7 @@ See the [full specification](./spec/agent-skills-spec.md) or [agentskills.io/spe
 
 ## Contributing
 
-Contributions are welcome! See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for guidelines on adding new skills or improving existing ones.
+Contributions are welcome! See [CONTRIBUTING.md](.github/CONTRIBUTING.md) · [Español](.github/CONTRIBUTING_ES.md) for guidelines on adding new skills or improving existing ones.
 
 ## License
 

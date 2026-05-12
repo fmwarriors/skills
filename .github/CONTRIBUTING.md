@@ -1,3 +1,6 @@
+[![English](https://img.shields.io/badge/lang-English-blue?style=flat-square)](./CONTRIBUTING.md)
+[![Español](https://img.shields.io/badge/lang-Español-red?style=flat-square)](./CONTRIBUTING_ES.md)
+
 # Contributing to FMWarriors Skills
 
 Thank you for your interest in contributing FileMaker Pro skills!

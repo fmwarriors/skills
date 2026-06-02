@@ -17,7 +17,8 @@
       "skills": [
         "./skills/filemaker-svg-builder",
         "./skills/filemaker-saxml-builder",
-        "./skills/contribute-skill"
+        "./skills/contribute-skill",
+        "./skills/filemaker-mcp-bridge"
       ]
     }
   ]

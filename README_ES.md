@@ -27,6 +27,7 @@ Explora estos skills para obtener ayuda con tareas específicas de FileMaker, o 
 | [filemaker-svg-builder](./skills/filemaker-svg-builder) | Construye, repara y valida iconos SVG para botones y barras de botones de FileMaker Pro según la especificación SVG Grammar de FileMaker Pro 14. | FileMaker Pro 14+ |
 | [filemaker-saxml-builder](./skills/filemaker-saxml-builder) | Construye, valida, repara y corrige archivos XML de FileMaker (SAXML/fmxmlsnippet) para scripts, campos, layouts, temas y mucho más. | FileMaker Pro 19+ / Claris FileMaker 21+ |
 | [contribute-skill](./skills/contribute-skill) | Guía a un miembro de la org FMWarriors para contribuir un nuevo skill a este repositorio — clonación, ramas, estructura, validación y apertura de pull request vía gh CLI. No se necesitan conocimientos de git. | Requiere git + gh CLI |
+| [filemaker-mcp-bridge](./skills/filemaker-mcp-bridge) | Unifica los servidores MCP filemaker-odata y filemaker-dapi en una sola capa de datos — enruta a OData por defecto y recurre a la Data API para layouts, scripts, contenedores y globales; además detecta y configura un servidor ausente o mal configurado. | FileMaker Server 19+ (Data API + OData) |
 
 ## Instalación de skills
 
@@ -41,6 +42,7 @@ Cada carpeta de skill se puede descargar como ZIP directamente desde GitHub:
 | filemaker-svg-builder | [Descargar ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/filemaker-svg-builder) |
 | filemaker-saxml-builder | [Descargar ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/filemaker-saxml-builder) |
 | contribute-skill | [Descargar ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/contribute-skill) |
+| filemaker-mcp-bridge | [Descargar ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/filemaker-mcp-bridge) |
 
 Descomprime el archivo descargado — obtendrás una carpeta con el nombre del skill que contiene un archivo `SKILL.md`.
 

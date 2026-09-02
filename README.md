@@ -28,6 +28,7 @@ Browse these skills to get help with FileMaker-specific tasks, or use them as a 
 | [filemaker-saxml-builder](./skills/filemaker-saxml-builder) | Build, validate, heal, and fix FileMaker XML (SAXML/fmxmlsnippet) format files for scripts, fields, layouts, themes, and more. | FileMaker Pro 19+ / Claris FileMaker 21+ |
 | [contribute-skill](./skills/contribute-skill) | Guides an FMWarriors org member through contributing a new skill to this repository — cloning, branching, scaffolding, validating, and opening a pull request via gh CLI. No git knowledge required. | Requires git + gh CLI |
 | [filemaker-mcp-bridge](./skills/filemaker-mcp-bridge) | Unifies the filemaker-odata and filemaker-dapi MCP servers into one data layer — routes to OData by default and falls back to the Data API for layouts, scripts, containers, and globals; also detects and configures a missing or misconfigured server. | FileMaker Server 19+ (Data API + OData) |
+| [filemaker-server-logs-audit](./skills/filemaker-server-logs-audit) | Audits FileMaker Server logs for performance, access, schedule, script, database, restart, Data API, and TopCallStats issues. | FileMaker Server on Windows; Python 3.10+ for the analyzer |
 
 ## Installing Skills
 
@@ -43,6 +44,7 @@ Each skill folder can be downloaded as a ZIP directly from GitHub:
 | filemaker-saxml-builder | [Download ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/filemaker-saxml-builder) |
 | contribute-skill | [Download ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/contribute-skill) |
 | filemaker-mcp-bridge | [Download ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/filemaker-mcp-bridge) |
+| filemaker-server-logs-audit | [Download ZIP](https://download-directory.github.io/?url=https://github.com/fmwarriors/skills/tree/main/skills/filemaker-server-logs-audit) |
 
 Unzip the downloaded file — you get a folder named after the skill containing a `SKILL.md` file.
 

@@ -18,7 +18,8 @@
         "./skills/filemaker-svg-builder",
         "./skills/filemaker-saxml-builder",
         "./skills/contribute-skill",
-        "./skills/filemaker-mcp-bridge"
+        "./skills/filemaker-mcp-bridge",
+        "./skills/filemaker-server-logs-audit"
       ]
     }
   ]

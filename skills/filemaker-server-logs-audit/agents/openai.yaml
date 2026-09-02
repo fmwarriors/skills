@@ -1,0 +1,4 @@
+interface:
+  display_name: "FileMaker Server Logs Audit"
+  short_description: "Audit FileMaker Server logs"
+  default_prompt: "Use $filemaker-server-logs-audit to investigate FileMaker Server logs for performance, access, and operational issues."
